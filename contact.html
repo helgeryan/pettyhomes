@@ -3,14 +3,86 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Movies Site</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js" type="text/javascript" defer></script>
+    <title>Petty Homes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 
 <body>
-    <template id="welcome-msg"></template>
-        
-</body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="src/images/tiktok.jpeg" width="30px" height="30px">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html">About</a>
+                <a class="nav-item nav-link" href="services.html">Services</a>
+                <a class="nav-item nav-link" href="faqs.html">FAQs</a>
+                <a class="nav-item nav-link active" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+    
 
+    <div class="contact-info">
+        <div class="contact-left">
+            <img src="src/images/lukephoto.jpeg">
+            <h3>Luke Pettersen</h3>
+            <a href="mailto:luke@theadvisorymn.com?subject=Hello Luke&body=We are interested in getting in touch with you!">luke@theadvisorymn.com</a>
+            <h4>612-702-0295</h4>
+        </div>
+        <div class="contact-right">
+            <div>
+                <form action="mailto:luke@theadvisorymn.com?subject=Hello Luke" method="post" enctype="text/plain">
+                    <label>Name:</label><br>
+                    <input type="text" name="name" size="50"><br>
+                    <label>Email Address:</label><br>
+                    <input type="text" name="mail" size="50"><br>
+                    <label>Comment:</label><br>
+                    <input type="text" name="comment" size="50"><br><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Footer Code -->
+    <div class="footer">
+        <div class="container">		
+            <div class="row text-center">						
+                <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Service</a></li>
+                            <li><a href="faqs.html">FAQs</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>						
+                    <div class="footer_copyright">
+                        <p>© 2023 Petty Homes. All Rights Reserved.</p>
+                    </div>	
+                    <div class="footer_profile">
+                        <ul>
+                            <li><a href="https://www.tiktok.com/@luke_pettersenrealtor"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/LPett47"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/pettyhomes/"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>						
+                </div><!--- END COL -->							
+            </div><!--- END ROW -->					
+        </div><!--- END CONTAINER -->
+    </div>
+</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
